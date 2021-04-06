@@ -1,0 +1,47 @@
+@media(max-width:1200px) {
+    .nav_item {
+        display: none;
+    }
+    .nav_item {
+        display: none;
+    }
+    .banner01 {
+        background-image: url(../images/banner01.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 291% 103%!important;
+        animation: zoom 3s forwards;
+        position: relative;
+        width: 100%;
+    }
+    .banner_content {
+        position: relative;
+        top: 96px;
+        width: 100%;
+        margin: 0 auto;
+        animation: slide 5s forwards;
+        padding: 28px;
+    }
+    .head {
+        font-size: 104px;
+    }
+    .girl_img {
+        width: 87%;
+        position: relative;
+        right: -85px;
+        padding: 4px;
+        margin: 0px!important;
+        transform: rotateY( 190deg);
+        animation: fall01 4s forwards;
+        top: 130px!important;
+        margin-bottom: 134px!important;
+    }
+    .banner_content {
+        position: relative;
+        top: 68px;
+        width: 100%;
+        margin: 0 auto;
+        animation: slide 5s forwards;
+        padding: 28px;
+    }
+}

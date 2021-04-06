@@ -1,0 +1,110 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Noto Sans JP', sans-serif!important;
+}
+
+a:hover {
+    text-decoration: none!important;
+}
+
+.banner_content {
+    position: relative;
+    top: 96px;
+    width: 50%;
+    margin: 0 auto;
+    animation: slide 5s forwards;
+}
+
+.head {
+    font-size: 143px;
+}
+
+.banner_content>h1 {
+    font-family: 'Dancing Script', cursive!important;
+    color: rgb(60 60 98);
+}
+
+.nav_item>ul>li>a {
+    color: rgb(60 60 98)!important;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.banner_content>p {
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.banner {
+    background-image: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner01 {
+    background-image: url(../images/banner01.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-size: 1623px 698px; */
+    background-size: 120% 104%;
+    animation: zoom 3s forwards;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+a {
+    color: white!important;
+}
+
+header {
+    z-index: 1;
+}
+
+img {
+    width: 100%;
+}
+
+.logo>img {
+    width: 86px;
+    padding: 10px;
+}
+
+.nav_item>ul {
+    padding: 10px!important;
+    margin-top: 10px;
+}
+
+section {
+    position: absolute;
+    width: 100%;
+    padding: 0px 0px 0px 0px;
+    top: -21px;
+    z-index: -1;
+}
+
+.girl_img {
+    width: 416px;
+    position: relative;
+    right: -85px;
+    padding: 4px;
+    margin: 236px 0px 0px 585px;
+    transform: rotateY( 190deg);
+    animation: fall 4s forwards;
+}
+
+.my_btn {
+    background-color: rgb(216 60 35);
+    border-radius: 75px;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 39px;
+}

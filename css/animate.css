@@ -1,0 +1,41 @@
+@keyframes zoom {
+    from {
+        background-size: 150% 110%;
+    }
+    to {
+        background-size: 120% 104%;
+    }
+}
+
+@keyframes fall {
+    from {
+        opacity: 0;
+        top: -400px;
+    }
+    to {
+        opacity: 1;
+        top: 0px;
+    }
+}
+
+@keyframes fall01 {
+    from {
+        opacity: 0;
+        top: -430px;
+    }
+    to {
+        opacity: 1;
+        top: 130px;
+    }
+}
+
+@keyframes slide {
+    from {
+        left: -700px;
+        opacity: 0;
+    }
+    to {
+        left: 0px;
+        opacity: 1;
+    }
+}
